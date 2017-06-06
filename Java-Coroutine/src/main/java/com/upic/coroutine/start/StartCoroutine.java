@@ -24,7 +24,6 @@ public final class StartCoroutine {
 					Constant.upWorkQueue.put(uploadTask);
 				}
 				CommonPool.JOINPOOL.invoke(start);
-				start.cancel(true);
 			}
 
 		};
