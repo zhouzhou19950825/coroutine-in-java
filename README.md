@@ -9,6 +9,9 @@
 
 
 -------------------
+java：
+>mvn compile exec:java -Dexec.mainClass=com.upic.test.Test
+
 ##kotlin的协程设计实现
     CoroutineContext(kotlin.coroutines.experimental)，协程的上下文，这个上下文可以是多个的组合，组合的上下文可以通过 key 来获取。
 
