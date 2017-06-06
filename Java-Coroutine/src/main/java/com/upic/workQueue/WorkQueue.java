@@ -1,6 +1,6 @@
 package com.upic.workQueue;
 /**
- * 环形队列
+ * 鐜舰闃熷垪
  * 
  * @author DTZ
  *

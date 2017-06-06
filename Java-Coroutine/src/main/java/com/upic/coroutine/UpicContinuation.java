@@ -7,8 +7,8 @@ package com.upic.coroutine;
  */
 public interface UpicContinuation {
 public UpicContinuationContext getContext(); 	
-//回调方法
+//鍥炶皟鏂规硶
 public void resume(Object t);
-//发生异常时调用的方法
+//鍙戠敓寮傚父鏃惰皟鐢ㄧ殑鏂规硶
 public void resumeWithException(Throwable exception);
 }

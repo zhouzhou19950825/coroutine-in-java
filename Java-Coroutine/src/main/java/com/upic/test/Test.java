@@ -22,8 +22,8 @@ public class Test {
 		//启动协程
 		StartCoroutine.launch( commonPool,uploadPath,new UploadPath("www.upic1234.com")
 				,new UploadPath("www.upic12345.com"));
-		System.out.println(Thread.getAllStackTraces());
 		System.out.println("正在上传...");
-		CommonPool.JOINPOOL.awaitTermination(1000, TimeUnit.MILLISECONDS);
+		CommonPool.JOINPOOL.awaitTermination(5000, TimeUnit.MILLISECONDS);
+		CommonPool.JOINPOOL.shutdown();
 	}
 }

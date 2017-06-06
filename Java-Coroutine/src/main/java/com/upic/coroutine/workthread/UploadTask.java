@@ -21,6 +21,10 @@ import com.upic.workQueue.Constant;
  *
  */
 public class UploadTask extends RecursiveTask<List<String>> {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private List<String> result;
 	private List<UploadTask> mTasks;
 	private UpicContinuationContext continuationContext;

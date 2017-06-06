@@ -12,7 +12,7 @@ public  class CommonPool extends Pool
 
 	private static CommonPool COMMONPOOL;
 	static Object obj=new Object();
-	public static ForkJoinPool JOINPOOL = ForkJoinPool.commonPool();
+	public static ForkJoinPool JOINPOOL = new ForkJoinPool();
 	private CommonPool()
 	{
 		super(JOINPOOL);
